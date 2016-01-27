@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DrawerViewController.h"
 
-@interface ProductViewController : UIViewController
+@interface ProductViewController : DrawerViewController
 
 @end
