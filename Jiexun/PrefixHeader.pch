@@ -1,0 +1,41 @@
+//
+//  PrefixHeader.pch
+//  Jiexun
+//
+//  Created by skma on 16/1/27.
+//  Copyright © 2016年 lanou. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#define sWIDTH [[UIScreen mainScreen] bounds].size.width
+#define sHEIGHT [[UIScreen mainScreen] bounds].size.height
+
+#define F10 [UIFont systemFontOfSize:10]
+#define F11 [UIFont systemFontOfSize:11]
+#define F12 [UIFont systemFontOfSize:12]
+#define F13 [UIFont systemFontOfSize:13]
+#define F14 [UIFont systemFontOfSize:14]
+#define F15 [UIFont systemFontOfSize:15]
+#define F16 [UIFont systemFontOfSize:16]
+#define F17 [UIFont systemFontOfSize:17]
+#define F18 [UIFont systemFontOfSize:18]
+#define F19 [UIFont systemFontOfSize:19]
+#define F20 [UIFont systemFontOfSize:20]
+#define F21 [UIFont systemFontOfSize:21]
+#define F22 [UIFont systemFontOfSize:22]
+#define F23 [UIFont systemFontOfSize:23]
+#define F24 [UIFont systemFontOfSize:24]
+#define F25 [UIFont systemFontOfSize:25]
+
+
+
+
+
+
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
