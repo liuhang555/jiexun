@@ -10,7 +10,8 @@
 #import "InformationViewController.h"
 #import "ProductViewController.h"
 #import "MineViewController.h"
-
+#import "UMSocial.h"
+#import "UMSocialQQHandler.h"
 @interface AppDelegate ()
 
 @end
@@ -20,6 +21,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
+    // 设置友盟APPKey
+//    [UMSocialData setAppKey:@"56aa0bf167e58e08790021c0"];
+//    [UMSocialQQHandler setQQWithAppId:@"1105150526" appKey:@"X5BdyZwYx2gqWdOX" url:@"http://www.umeng.com/social"];
+    
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
     // 资讯
@@ -27,6 +32,7 @@
     IFVC.title = @"资讯";
     IFVC.tabBarItem.image = [UIImage imageNamed:@"zixun"];
     UINavigationController *IFNAVC = [[UINavigationController alloc]initWithRootViewController:IFVC];
+    [IFNAVC setNavigationBarHidden:YES animated:YES];
     
     // 产品
     ProductViewController *PDVC = [[ProductViewController alloc]init];
