@@ -10,6 +10,6 @@
 
 @interface BrandTableViewCell : UITableViewCell
 
-
+- (void)getUrl:(NSString *)url name:(NSString *)name;
 
 @end

@@ -20,4 +20,9 @@
  **/
 - (void)display:(NSArray *)array name:(NSString *)name;
 
+/**
+ * 分类名
+ **/
+@property (nonatomic, strong) UILabel *nameLable;
+
 @end

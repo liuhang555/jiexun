@@ -15,11 +15,6 @@
  **/
 @property (nonatomic, strong) UIImageView *iconView;
 
-/**
- * 分类名
- **/
-@property (nonatomic, strong) UILabel *nameLable;
-
 
 @end
 
